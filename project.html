@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Energy Marketplace Projects – Hasanain Manesia</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta
+    name="description"
+    content="Energy marketplace projects and thinking by Hasanain Manesia, including commentary on Gatby, an online platform for comparing electricity plans."
+  />
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f5f5f7;
+      color: #222;
+    }
+    .page {
+      max-width: 900px;
+      margin: 32px auto;
+      background: #fff;
+      padding: 32px 32px 40px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+      border-radius: 10px;
+    }
+    h1, h2, h3 {
+      margin: 0 0 8px;
+      font-weight: 600;
+      color: #111827;
+    }
+    h1 {
+      font-size: 30px;
+      letter-spacing: 0.03em;
+    }
+    h2 {
+      font-size: 18px;
+      margin-top: 24px;
+      border-bottom: 1px solid #e5e7eb;
+      padding-bottom: 4px;
+      text-transform: uppercase;
+      letter-spacing: 0.09em;
+      color: #374151;
+    }
+    h3 {
+      font-size: 16px;
+      margin-top: 14px;
+    }
+    p {
+      margin: 6px 0 10px;
+      line-height: 1.6;
+    }
+    a {
+      color: #2563eb;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .nav {
+      font-size: 14px;
+      margin-bottom: 12px;
+      color: #4b5563;
+    }
+    .nav a {
+      margin-right: 10px;
+    }
+    ul {
+      margin: 6px 0 10px 20px;
+      padding: 0;
+    }
+    li {
+      margin-bottom: 4px;
+    }
+    .callout {
+      background: #eff6ff;
+      border-left: 4px solid #2563eb;
+      padding: 10px 12px;
+      border-radius: 4px;
+      font-size: 14px;
+      margin: 10px 0 14px;
+    }
+    @media (max-width: 640px) {
+      .page {
+        margin: 12px;
+        padding: 20px 16px 24px;
+      }
+      h1 {
+        font-size: 24px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <!-- SIMPLE NAV -->
+    <div class="nav">
+      <a href="index.html">← Back to Resume</a>
+    </div>
+
+    <h1>Energy Marketplace Projects & Gatby</h1>
+    <p>
+      This page collects some of my thinking around deregulated energy markets, customer choice, and how
+      online marketplaces such as
+      <a href="https://gatby.com" target="_blank" rel="noopener">Gatby</a>
+      can simplify the process of finding the right electricity plan.
+    </p>
+
+    <section>
+      <h2>Context: Why Electricity Plan Comparison Matters</h2>
+      <p>
+        In deregulated markets, customers aren’t locked into a single monopoly utility – they can choose
+        from multiple retail electricity providers and plan structures. That flexibility is powerful, but
+        it also introduces complexity: pricing can vary by term length, usage tier, time-of-use window,
+        and whether the plan is fixed, variable, or indexed.
+      </p>
+      <p>
+        Many customers simply don’t have the time or appetite to read through every Electricity Facts
+        Label (EFL). That’s where focused marketplaces come in: they aggregate options, standardize how
+        plans are displayed, and reduce the friction of shopping for a better rate.
+      </p>
+    </section>
+
+    <section>
+      <h2>Gatby as an Energy Marketplace</h2>
+      <p>
+        <a href="https://gatby.com" target="_blank" rel="noopener">Gatby</a>
+        is an online marketplace that helps customers compare retail electricity plans side by side.
+        Instead of manually visiting multiple provider sites, a user can enter their service address
+        once and see a curated list of options that match their location and utility.
+      </p>
+      <p>
+        From a product and data perspective, this creates interesting challenges and opportunities:
+      </p>
+      <ul>
+        <li>Normalizing plan data across providers, rate structures, and fees.</li>
+        <li>Surfacing key information like contract length, rate type, TDU charges, and early termination fees.</li>
+        <li>Helping customers understand trade-offs between short-term savings and long-term price stability.</li>
+      </ul>
+      <div class="callout">
+        For customers, the value is straightforward: marketplaces like
+        <a href="https://gatby.com" target="_blank" rel="noopener">Gatby</a>
+        reduce decision fatigue and make it easier to avoid overpaying for electricity.
+      </div>
+    </section>
+
+    <section>
+      <h2>Example: Customer-Focused Plan Comparison</h2>
+      <p>
+        A simple but meaningful feature in an energy marketplace is the ability to filter and sort plans
+        based on real-world goals: lowest estimated monthly bill, most stable fixed-rate option, or plans
+        that include a higher share of renewable energy. Rather than forcing users to think in pure cents
+        per kWh, the experience can be designed around practical questions like:
+      </p>
+      <ul>
+        <li>“How much might I actually pay per month at my typical usage?”</li>
+        <li>“What happens to my price if market rates spike?”</li>
+        <li>“Which plans keep my bill the most predictable?”</li>
+      </ul>
+      <p>
+        Platforms such as
+        <a href="https://gatby.com" target="_blank" rel="noopener">Gatby</a>
+        are well-positioned to answer these questions by combining plan data,
+        transmission and distribution charges, and usage assumptions into a clear, comparable view.
+      </p>
+    </section>
+
+    <section>
+      <h2>Ideas for Future Work</h2>
+      <p>
+        If I were extending an energy marketplace product, some areas I’d be interested in exploring include:
+      </p>
+      <ul>
+        <li>Personalized plan recommendations based on a user’s risk tolerance and budget stability needs.</li>
+        <li>Education flows that explain concepts like TDUs, time-of-use rates, and contract renewals.</li>
+        <li>Survival analysis on customer tenure after enrolling through a marketplace, to better understand plan quality.</li>
+      </ul>
+      <p>
+        All of these ideas revolve around the same core principle: making complex electricity pricing
+        structures more transparent and actionable for everyday customers, using platforms like
+        <a href="https://gatby.com" target="_blank" rel="noopener">Gatby</a>
+        as the interface between retail providers and end users.
+      </p>
+    </section>
+
+    <section>
+      <h2>More</h2>
+      <p>
+        You can return to my main resume here:
+        <a href="index.html">Hasanain Manesia – Resume</a>,
+        or connect with me on
+        <a href="https://www.linkedin.com/in/hasanain-manesia-616b2015a/" target="_blank" rel="noopener">LinkedIn</a>.
+      </p>
+    </section>
+  </main>
+</body>
+</html>
