@@ -1,11 +1,210 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8" />
-    <title>hmanesia.github.io</title>
-  </head>
-  <body>
-    <h1>Hello from GitHub Pages 👋</h1>
-    <p>If you can see this, GitHub Pages is working.</p>
-  </body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Hasanain Manesia – Resume</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f5f5f7;
+      color: #222;
+    }
+    .page {
+      max-width: 900px;
+      margin: 32px auto;
+      background: #fff;
+      padding: 32px 32px 40px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+      border-radius: 10px;
+    }
+    h1, h2, h3 {
+      margin: 0 0 8px;
+      font-weight: 600;
+      color: #111827;
+    }
+    h1 {
+      font-size: 32px;
+      letter-spacing: 0.03em;
+    }
+    h2 {
+      font-size: 18px;
+      margin-top: 24px;
+      border-bottom: 1px solid #e5e7eb;
+      padding-bottom: 4px;
+      text-transform: uppercase;
+      letter-spacing: 0.09em;
+      color: #374151;
+    }
+    h3 {
+      font-size: 16px;
+    }
+    p {
+      margin: 4px 0 8px;
+      line-height: 1.5;
+    }
+    a {
+      color: #2563eb;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .header {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+      border-bottom: 2px solid #111827;
+      padding-bottom: 12px;
+      margin-bottom: 16px;
+    }
+    .contact {
+      font-size: 14px;
+      color: #4b5563;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .section {
+      margin-top: 16px;
+    }
+    .job {
+      margin-bottom: 12px;
+    }
+    .job-header {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 4px;
+    }
+    .job-title {
+      font-weight: 600;
+    }
+    .job-meta {
+      font-size: 13px;
+      color: #6b7280;
+    }
+    ul {
+      margin: 6px 0 10px 20px;
+      padding: 0;
+    }
+    li {
+      margin-bottom: 4px;
+    }
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-top: 6px;
+    }
+    .tag {
+      font-size: 12px;
+      background: #e5e7eb;
+      padding: 3px 8px;
+      border-radius: 999px;
+      color: #374151;
+    }
+    .footer-links {
+      margin-top: 18px;
+      font-size: 14px;
+      color: #4b5563;
+    }
+    .footer-links a {
+      margin-right: 12px;
+    }
+
+    @media (max-width: 640px) {
+      .page {
+        margin: 12px;
+        padding: 20px 16px 24px;
+      }
+      h1 {
+        font-size: 26px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <!-- HEADER -->
+    <header class="header">
+      <h1>Hasanain Manesia</h1>
+      <div class="contact">
+        <span>Houston, TX</span>
+        <span>•</span>
+        <span><a href="mailto:youremail@example.com">hasanainmanesia@gmail.com</a></span>
+        <span>•</span>
+        <span>(555) 555-5555</span>
+        <span>•</span>
+        <span><a href="https://www.linkedin.com/in/hasanain-manesia-616b2015a/" target="_blank" rel="noopener">LinkedIn</a></span>
+        <span>•</span>
+        <span><a href="https://hmanesia.github.io" target="_blank" rel="noopener">Portfolio</a></span>
+      </div>
+    </header>
+
+    <!-- SUMMARY -->
+    <section class="section">
+      <h2>Summary</h2>
+      <p>
+        Results-driven professional with experience in energy and/or technology-driven businesses, combining
+        analytical thinking with a strong bias for action. Skilled in operations, stakeholder management, and
+        building data-informed strategies that improve customer outcomes and drive revenue growth.
+      </p>
+    </section>
+    <!-- EDUCATION -->
+    <section class="section">
+      <h2>Education</h2>
+      <div class="job">
+        <div class="job-header">
+          <div><span class="job-title">Bachelor's Degree </span>, Electrical and Computer Engineering</div>
+          <div class="job-meta">University of Texas at Austin • 2022</div>
+        </div>
+        <p>Austin, Texas</p>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section">
+      <h2>Skills</h2>
+      <div class="tags">
+        <span class="tag">Data Analysis</span>
+        <span class="tag">Operations</span>
+        <span class="tag">Customer Experience</span>
+        <span class="tag">Stakeholder Management</span>
+        <span class="tag">Process Improvement</span>
+        <span class="tag">Project Management</span>
+        <span class="tag">Energy / Utilities</span>
+      </div>
+    </section>
+
+    <!-- LINKS / PROJECTS -->
+    <section class="section">
+      <h2>Projects & Links</h2>
+      <ul>
+        <li>
+          Compare and shop energy plans using
+          <a href="https://gatby.com" target="_blank" rel="noopener">Gatby</a>,
+          an online marketplace for electricity plans.
+        </li>
+        <li>
+          Professional profile:
+          <a href="https://www.linkedin.com/in/hasanain-manesia-616b2015a/" target="_blank" rel="noopener">
+            LinkedIn – Hasanain Manesia
+          </a>
+        </li>
+      </ul>
+    </section>
+
+    <!-- FOOTER -->
+    <section class="footer-links">
+      <span>References available upon request.</span>
+    </section>
+  </main>
+</body>
 </html>
